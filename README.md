@@ -88,6 +88,12 @@ This `reader.py` program does the following:
 * Else the image stays there, and a `qr_code_messages.txt` file is created with the QR code message onto it. 
 * This file seperates the messages with certain delimiters
 
+If you want to run the code enter
+
+```bash
+sudo python reader.py 0
+```
+
 This is all you need to do / know for the QR code reader to work, If you want the detailed explationation of the code, I will be writing it soon. 
 
 
