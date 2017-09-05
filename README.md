@@ -19,7 +19,7 @@ Here onwards everything will be on the terminals. Press `CTRL + ALT + T` to open
 
 #### STEP 1 - Initial installations
 
-We always have to keep the apt-get updated. 
+ The apt-get must always be kept updated. 
 
 ```bash 
 sudo apt-get update -y && sudo apt-get upgrade -y
@@ -35,7 +35,7 @@ You will need to install this to access the webcam from the commandline. To inst
 sudo apt-get install fswebcam
 ```
 
-This will install fswebcam. Now insert your USB webcam, to check if it's connected, enter in the commad
+This will install fswebcam. Now insert your USB webcam, to check if it's connected, enter in the command
 
 ```bash
 ls /dev/ | grep video
@@ -47,7 +47,8 @@ If `video0` is the output that means you are good to go, The webcam is connected
 sudo fswebcam image.jpg
 ```
 
-This will take a picture named `image.jpg`. To check if you have taken the image, Enter: 
+This will take a picture named `image.jpg`.
+To check if you have taken the image, Enter: 
 
 ```bash
 ls | grep image
@@ -77,7 +78,7 @@ Then we have to install the `zbarlight`
 sudo pip install zbarlight
 ```
 
-After this you can run the `reader.py` python program that I have written to test if it works. But before you do that, we need create a folder named `qr_codes` right outside the `reader.py` file, This folder will store all the QR codes. 
+After this you can run the `reader.py` python program that I have written to test if it works. But before you proceed, we need to create a folder named `qr_codes` right outside the `reader.py` file. This folder will store all the QR codes. 
 
 This `reader.py` program does the following: 
 
