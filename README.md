@@ -1,6 +1,6 @@
 ## QR code reader on a Raspberry Pi 3
 
-This guide will show you how to create a QR code reader by using the `zbarlight` python library and `fswebcam` to take the picture. We wont be using `open cv` or any other image processing libraries. 
+This guide will show you how to create a QR code reader by using the `zbarlight` python library and `fswebcam` to take the picture. We will not be using `open cv` or any other image processing libraries. 
 
 ### What you'll need
 
